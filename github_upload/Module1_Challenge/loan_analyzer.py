@@ -17,21 +17,25 @@ loan_costs = [500, 600, 200, 1000, 450]
 
 # How many loans are in the list?
 # @TODO: Use the `len` function to calculate the total number of loans in the list.
-# Print the number of loans from the list
 total_number_loans = len(loan_costs)
+
+# Print the number of loans from the list
 print(f"Total number of loans in the portfolio: {total_number_loans}")
 
 # What is the total of all loans?
 # @TODO: Use the `sum` function to calculate the total of all loans in the list.
-# Print the total value of the loans
 total_all_loans = sum(loan_costs)
+
+# Print the total value of the loans
 print(f"Total portfolio price: {total_all_loans}")
 
 # What is the average loan amount from the list?
 # @TODO: Using the sum of all loans and the total number of loans, calculate the average loan price.
-# Print the average loan amount
 average_loan_amount = total_all_loans/total_number_loans
+
+# Print the average loan amount
 print(f"Average loan price: {average_loan_amount}")
+
 
 """
 Part 2: Analyze Loan Data.
@@ -66,11 +70,11 @@ loan = {
 }
 
 # @TODO: Use get() on the dictionary of additional information to extract the Future Value and Remaining Months on the loan.
-# Print each variable.
 future_value = loan.get("future_value")
-print(f"The future value of the selected loan: {future_value}")
-
 remaining_months = loan.get("remaining_months")
+
+# Print each variable.
+print(f"The future value of the selected loan: {future_value}")
 print(f"There are {remaining_months} months reamining to the maturity of the loan")
 
 
