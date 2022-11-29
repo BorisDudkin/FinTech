@@ -34,7 +34,7 @@ print(f"Total portfolio price: {total_all_loans}")
 average_loan_amount = total_all_loans/total_number_loans
 
 # Print the average loan amount
-print(f"Average loan price: {average_loan_amount}")
+print(f"Average loan price: {average_loan_amount: .2f}")
 
 
 """
