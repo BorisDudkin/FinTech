@@ -120,7 +120,7 @@ new_loan = {
 #    This function should include parameters for `future_value`, `remaining_months`, and the `annual_discount_rate`
 #    The function should return the `present_value` for the loan.
 def loan_present_value(future_value, remaining_months, annual_discount_rate):
-    """This is a function to calculate the present value
+    """This function to calculate the present value of the future cash flow
 
     Args:
         future_value (int): loan future value
