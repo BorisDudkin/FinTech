@@ -63,7 +63,7 @@ The code can be used for the following purposes:
 
 - Given a list of loans, calculate the total number of loans, total cost of the portfolio and an average loan price
 - Analyze the loan to determine the investment value:
-  - Determine the fair value of the loan given its future value and a hurdle discount rate;
+  - Determine the fair value of the loan given its future value, investment horizon and a hurdle discount rate;
   - Compare the present value to the cost of the loan to make an investment decision
 - Select loans for investment by using a price criteria
 - Save the results in a csv document in a specified location on your PC
