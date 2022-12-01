@@ -1,6 +1,5 @@
-## Project name
+##  **Loan Analizer**
 
-### **Loan Analizer**
 
 Finance professionals are often requited to analyze different characterisitcs of a large number of loans. This task can be time consuming and tedious.
 Loan Analizer tool is built to streamline those analyzes and make a job of an analist more efficient and enjoyable.
